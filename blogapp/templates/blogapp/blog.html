@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" type="image/png" href="{% static 'blogapp/img/nadoo.jpg' %}">
+    <link rel="icon" type="image/png" href="{% static 'blogapp/img/icon.png' %}">
     
     <!-- Load css file -->
     <link href="{% static 'blogapp/styles.css' %}" rel="stylesheet">
@@ -46,24 +46,15 @@
 
     <body>
 
-        <nav>
-            <div class="nav-bar">
-                <a class="logo" href="#">
-                    <img src="{% static 'blogapp/img/blognadoo.png' %}" alt="logo"></a>
-
-                <div style="float: right;">
-                    <!--a href="https://twitter.com/leroybuliro/" target="_blank"><img src="resources\img\twitter.png" alt="twitter" class="center" width="30" length="30" style="padding-right: 3px;"></a-->
-                    <a href="https://instagram.com/leroybuliro/" target="_blank"><img src="{% static 'blogapp/img/insta.png' %}" alt="instagram" class="center" width="30" length="30" style="padding-left: 3px;"></a>
-                    <!--a href="https://www.youtube.com/channel/UCb53KypWn_BMSOxZMQfORdQ" target="_blank"><img src="resources\img\yt.png" alt="instagram" class="center" width="30" length="30" style="padding-left: 3px;"></a-->
-                </div>
-            </div>
-
-            <div class="update-bar"><p>NEW <a href= "podcasts" ><strong style="color: red;">KUBONGA SHOW EPISODE</strong></a> OUT NOW</p></div>
+        <nav style="background-color: black; position:sticky; max-width: 100%; padding: 1% 4%;">
+            <a style="align-self: center; color: white; font-weight:bolder; text-decoration: none;" href="#">THE BLOG OF<br>LEROY BULIRO</a>
+            <!--a href="#"><img src="{% static 'blogapp/img/title.png' %}" alt="logo" style="max-height: 100%;"></a-->
         </nav>
 
 
 
         <div class="page-container">
+            <h1 style="text-align: center; font-family: 'Josefin Sans', sans-serif;">Blog Posts</h1>
 
             <div class="blog-post">
                 <h6 class="blog-post-category">URBAN CULTURE</h6>
@@ -149,66 +140,72 @@
 
         </div>
 
-        <div class="page-container" style="padding-top: 0.4em;">
+        <div style="background-color: rgb(19, 29, 29); color: white; width: 100%; padding-left:10%; padding-right:10%; padding-top:5%; padding-bottom:5%;">
             <div class ="row">
-                <div class="col-sm-12 col-md-4 col-lg-4">
-    
-                    <p style="font-size: 38px; font-weight: bold;">KUBONGA<br>SHOW<br>PODCAST</p>
-    
-                    <p>The Kubonga Show is a seasonal, meandering conversation with activists, artists, industry professionals, and everyday folks. We want to tell their stories, talk about topics close to their heart, and yeah, just have a nice conversation with host Leroy Buliro.</p>
-                    <p>Kubonga is a Swahili slang translating to 'Talk'.</p>
-                    <p>Email your requests or comments to <a href="mailto:lerbassist@gmail.com" target="_blank">lerbassist@gmail.com</a></p>
+
+                <div class="col-sm-7 col-md-7 col-lg-7">
+
+                    <p style="font-family: 'Josefin Sans', sans-serif; font-size: 2.6em;"><strong>Leroy Buliro Dives In Podcast</strong></p>
                     <br>
-                    <div><p><strong>LISTEN & SUBSCRIBE</strong></p></div>
+                    <p style="font-size: 18px;">Leroy Buliro Dives In is a meandering conversation with activists, artists, industry professionals, and everyday folks. We want to tell their stories, talk about topics close to their heart, and yeah, just have a nice conversation with host Leroy Buliro.</p>
+                    <p><strong>LISTEN & SUBSCRIBE</strong></p>
                     <ul>
-                        <li><a href="https://mdundo.com/a/199352" target="_blank">Mdundo</a></li>
-                        <li><a href="https://open.spotify.com/show/2yUYmMbNJ2aXWDPoHF6P7D" target="_blank">Spotify</a></li>
                         <li><a href="https://podcasts.apple.com/us/podcast/kubonga-podcast/id1470474649?uo=4" target="_blank">Apple Podcasts</a></li>
                         <li><a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9jNDk1YmI4L3BvZGNhc3QvcnNz" target="_blank">Google Podcasts</a></li>
+                        <li><a href="https://open.spotify.com/show/2yUYmMbNJ2aXWDPoHF6P7D" target="_blank">Spotify</a></li>
                     </ul>
+
                 </div>
     
-                <div class="col-sm-12 col-md-8 col-lg-8">
-                    <h3>Season One</h3>
-    
-                    <hr>
-    
-                    <div class="episode">
-                        <!--img> src="resources\img\playnow.png" alt="" id="imgClickAndChange" onclick="changeImage()" /-->
-                        <div>
-                            <p id="podtext">EPISODE 3 - TBA</p>
-                            <P id="podtitle">OFFICIAL PODCAST LAUNCH</P>
-                            <p id="podtext">We look back to the past, contemplate the present and stay hopeful for the future.</p>
-                        </div>
-                    </div>
-    
-                    <hr>
-    
-                    <div class="episode">
-                        <!--img> src="resources\img\playnow.png" alt="" id="imgClickAndChange" onclick="changeImage()" /-->
-                        <div>
-                        <p id="podtext">EPISODE 2 - AUG 13, 2019</p>
-                        <P id="podtitle">LET'S TALK WHISKY w/ DANIEL DYER - GRANT'S WHISKY GLOBAL BRAND AMBASSADOR</P>
-                        <p id="podtext">From a humble background as a bartender at a local pub somewhere in Scotland to Grant's Whisky Global brand ambassador, Daniel Dyer shares his transformative journey with us and much more.</p>
-                        </div>
-                    </div>
-    
-                    <hr>
-    
-                    <div class="episode">
-                        <!--img> src="resources\img\playnow.png" alt="" id="imgClickAndChange" onclick="changeImage()" /-->
-                        <div>
-                            <p id="podtext">EPISODE 1 - JUN 27, 2019</p>
-                            <P id="podtitle">ACCIDENTAL PODCAST PILOT w/ WANJIRA LONGAUER - KENYAN BASED ACTRESS, RADIO & TV HOST</P>
-                            <p id="podtext">Get to know Wanjira Longauer as she unveils her childhood memories, lets us in on her adventures in Europe, dishes out tips on the dos and don'ts for future travellers and gives us pointers on how to live your best life.</p>
-                        </div>
-                    </div>
+                <div class="col-sm-5 col-md-5 col-lg-5">
+
+                    <img src="{% static 'blogapp/img/dive-in.jpg' %}" alt="dive in podcast" style="max-width: 100%;">
+                    
                 </div>
             </div>
         </div>
 
+        <br>
+
+        <div style="padding-top: 0.4em; padding-left: 3em; padding-right: 3em; text-align: center; font-family: 'Josefin Sans', sans-serif;">
+            <h1>About Leroy</h1>
+            <img src="{% static 'blogapp/img/about.jpg' %}" alt="leroy" style="border-radius: 50%; max-width: 15em; padding: 2em;">
+            <p>Hi there. My name is Leroy, also recognized by my DJ stage name LERB. I am an analyst by profession, a junglist at heart, and a storyteller by birth.</p>
+            <p>Welcome to my digital man-cave, a place where I document stories and experiences, both personal and those told by others.</p>
+            <div>
+                <a href="https://twitter.com/leroybuliro/" target="_blank"><img src="{% static 'blogapp/img/twitter.png' %}" alt="twitter" class="center" width="40em" length="40em" style="padding: 3px;"></a>
+                <a href="https://instagram.com/leroybuliro/" target="_blank"><img src="{% static 'blogapp/img/insta.png' %}" alt="instagram" class="center" width="40em" length="40em" style="padding: 3px;"></a>
+                <!--a href="https://www.youtube.com/channel/UCb53KypWn_BMSOxZMQfORdQ" target="_blank"><img src="resources\img\yt.png" alt="instagram" class="center" width="30" length="30" style="padding-left: 3px;"></a-->
+            </div>
+        
+        </div>
+
+        <br>
+
+        <!--div style="padding-top: 1em; text-align: center; font-family: 'Josefin Sans', sans-serif;">
+            <h1>Get In Touch</h1>
+            <form action="/get-in-touch.php">
+                <label for="name">Name (required)</label><br>
+                <input type="text" id="name" name="name" value=""><br>
+                <label for="mail">Email (required)</label><br>
+                <input type="text" id="email" name="email" value=""><br>
+                <label for="message">Message (required)</label><br>
+                <input type="text" id="message" name="message" value=""><br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+
+        <br-->
+
         <div>
-            <footer>© Leroy Buliro 2018-2020. All rights Reserved.</footer>
+            <footer style="background-color: #000000; color: white; text-align: center; font-family: 'Josefin Sans', sans-serif; width: 100%; padding: 0.1em; font-size: 10px; position: fixed; bottom: 0;">
+                <a hre© 2018-2021 Leroy Buliro.
+                <div style="align-self: center; float: right;">
+                    <button style="font-weight: bold; background-color: black; color: white; border: none; cursor: pointer; margin-right: 1em;"><a>LOG IN</a></button>
+                    <button style="font-weight: bold; background-color: rgb(28, 26, 145); color: white; border: none; cursor: pointer;"><a>SIGN UP</a></button>
+                </div>
+            
+            </footer>
         </div>
 
         <!-- Optional JavaScript -->

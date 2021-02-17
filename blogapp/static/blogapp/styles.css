@@ -1,5 +1,5 @@
-p, li, .recipe-list{
-    font-size: 15px;
+p, li, .recipe-list, h1{
+    font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -14,52 +14,7 @@ body {
     padding-bottom: 2%;
 }
 
-/* NAV BAR */
-
-nav {
-  position: static;
-  width: 100%;
-}
-
-.nav-bar {
-  background-color: #333333;
-  height: 3.5em;
-  width: 100%;
-  padding: 0.7em;
-  
-}
-
-nav .logo img {
-  max-height: 100%;
-  padding-left: 3%;
-  padding-top: 0em;
-}
-
-.update-bar {
-  background-color: black;
-  margin: 0em;
-  width: 100%;
-}
-
-.update-bar p {
-  color: whitesmoke;
-  font-size: 12px;
-  text-align: center;
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
-}
-
-.update-bar p a {
-  color: rgb(207, 207, 207);
-  text-decoration: none;
-}
-
-.update-bar p a:hover {
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-/* BLOG PAGE*/
+/* BLOG SECTION*/
 
 .blog-post {
     padding-bottom: 3em;
@@ -70,7 +25,7 @@ nav .logo img {
 }
 
 
-/* PODCAST PAGE*/
+/* PODCAST SECTION*/
 
 .episode img {
   height: 44px;
@@ -86,20 +41,6 @@ nav .logo img {
 
 #podtext {
     font-size: 14px;
-}
-
-
-/* FOOTER */
-footer {
-    background-color: #333333;
-    color: white;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    width: 100%;
-    padding: 0.1em;
-    font-size: 10px;
-    position: fixed;
-    bottom: 0;
 }
 
 
