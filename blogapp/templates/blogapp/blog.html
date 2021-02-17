@@ -17,6 +17,30 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
+    <script type="text/javascript">
+ 
+        /* This program will swap an image when it is clicked by using the getElementById() method
+        The program will use an image_tracker variable to keep track of which image is currently displayed
+        We can use an IF statement to check if the orange picture is being displayed,
+        then swap with the blue one, and vice versa.
+        */ 
+        
+        var image_tracker = 'play';
+        
+        function change(){
+        var image = document.getElementById('imgChange');
+        if(image_tracker=='play'){
+        image.src='resources\img\pausenow.png';
+        image_tracker='pause';
+        }
+        else{
+        image.src='resources\img\playnow.png';
+        image_tracker='play';
+        }
+        }
+        
+        </script>
+
     <title>Home | Leroy Buliro</title>
 </head>
 
@@ -123,6 +147,64 @@
                 <p style="font-weight: bold; text-align: right; font-size: 13px;"><i>This article was first published by <a href="https://issuu.com/getyummy/docs/yummy_magazine_volume_3.12/68" target="_blank">Yummy Magazine</a>.</i></p>
             </div><!-- /.blog-post -->
 
+        </div>
+
+        <div class="page-container" style="padding-top: 0.4em;">
+            <div class ="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+    
+                    <p style="font-size: 38px; font-weight: bold;">KUBONGA<br>SHOW<br>PODCAST</p>
+    
+                    <p>The Kubonga Show is a seasonal, meandering conversation with activists, artists, industry professionals, and everyday folks. We want to tell their stories, talk about topics close to their heart, and yeah, just have a nice conversation with host Leroy Buliro.</p>
+                    <p>Kubonga is a Swahili slang translating to 'Talk'.</p>
+                    <p>Email your requests or comments to <a href="mailto:lerbassist@gmail.com" target="_blank">lerbassist@gmail.com</a></p>
+                    <br>
+                    <div><p><strong>LISTEN & SUBSCRIBE</strong></p></div>
+                    <ul>
+                        <li><a href="https://mdundo.com/a/199352" target="_blank">Mdundo</a></li>
+                        <li><a href="https://open.spotify.com/show/2yUYmMbNJ2aXWDPoHF6P7D" target="_blank">Spotify</a></li>
+                        <li><a href="https://podcasts.apple.com/us/podcast/kubonga-podcast/id1470474649?uo=4" target="_blank">Apple Podcasts</a></li>
+                        <li><a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9jNDk1YmI4L3BvZGNhc3QvcnNz" target="_blank">Google Podcasts</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <h3>Season One</h3>
+    
+                    <hr>
+    
+                    <div class="episode">
+                        <!--img> src="resources\img\playnow.png" alt="" id="imgClickAndChange" onclick="changeImage()" /-->
+                        <div>
+                            <p id="podtext">EPISODE 3 - TBA</p>
+                            <P id="podtitle">OFFICIAL PODCAST LAUNCH</P>
+                            <p id="podtext">We look back to the past, contemplate the present and stay hopeful for the future.</p>
+                        </div>
+                    </div>
+    
+                    <hr>
+    
+                    <div class="episode">
+                        <!--img> src="resources\img\playnow.png" alt="" id="imgClickAndChange" onclick="changeImage()" /-->
+                        <div>
+                        <p id="podtext">EPISODE 2 - AUG 13, 2019</p>
+                        <P id="podtitle">LET'S TALK WHISKY w/ DANIEL DYER - GRANT'S WHISKY GLOBAL BRAND AMBASSADOR</P>
+                        <p id="podtext">From a humble background as a bartender at a local pub somewhere in Scotland to Grant's Whisky Global brand ambassador, Daniel Dyer shares his transformative journey with us and much more.</p>
+                        </div>
+                    </div>
+    
+                    <hr>
+    
+                    <div class="episode">
+                        <!--img> src="resources\img\playnow.png" alt="" id="imgClickAndChange" onclick="changeImage()" /-->
+                        <div>
+                            <p id="podtext">EPISODE 1 - JUN 27, 2019</p>
+                            <P id="podtitle">ACCIDENTAL PODCAST PILOT w/ WANJIRA LONGAUER - KENYAN BASED ACTRESS, RADIO & TV HOST</P>
+                            <p id="podtext">Get to know Wanjira Longauer as she unveils her childhood memories, lets us in on her adventures in Europe, dishes out tips on the dos and don'ts for future travellers and gives us pointers on how to live your best life.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div>
