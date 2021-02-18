@@ -46,7 +46,7 @@
 
     <body>
 
-        <nav style="background-color: black; position:sticky; max-width: 100%; padding: 1% 4%;">
+        <nav style="background-color: black; position:relative; max-width: 100%; padding: 1% 4%; display: inline-block;">
             <a style="align-self: center; color: white; font-weight:bolder; text-decoration: none;" href="#">THE BLOG OF<br>LEROY BULIRO</a>
             <!--a href="#"><img src="{% static 'blogapp/img/title.png' %}" alt="logo" style="max-height: 100%;"></a-->
         </nav>
@@ -167,7 +167,7 @@
 
         <br>
 
-        <div style="padding-top: 0.4em; padding-left: 3em; padding-right: 3em; text-align: center; font-family: 'Josefin Sans', sans-serif;">
+        <div style="padding-top: 0.4em; padding-left: 3em; padding-right: 3em; text-align: center; font-family: 'Josefin Sans', sans-serif; margin-bottom: 6em;">
             <h1>About Leroy</h1>
             <img src="{% static 'blogapp/img/about.jpg' %}" alt="leroy" style="border-radius: 50%; max-width: 15em; padding: 2em;">
             <p>Hi there. My name is Leroy, also recognized by my DJ stage name LERB. I am an analyst by profession, a junglist at heart, and a storyteller by birth.</p>
@@ -198,12 +198,19 @@
         <br-->
 
         <div>
-            <footer style="background-color: #000000; color: white; text-align: center; font-family: 'Josefin Sans', sans-serif; width: 100%; padding: 0.1em; font-size: 10px; position: fixed; bottom: 0;">
-                <a hre© 2018-2021 Leroy Buliro.
-                <div style="align-self: center; float: right;">
-                    <button style="font-weight: bold; background-color: black; color: white; border: none; cursor: pointer; margin-right: 1em;"><a>LOG IN</a></button>
+            <footer style=" display:inline; background-color: #000000; color: white; font-family: 'Josefin Sans', sans-serif; width: 100%; font-size: 12px; position: fixed; bottom: 0; ">
+                
+                <div style="float:inline-start;">
+                    <a style="text-decoration: none; color: white;" href="#">Privacy policy</a>
+                    <a style="text-decoration: none; color: white;" href="#">| Terms of use |</a>
+                    <a style="text-decoration: none; color: white;" href="mailto:lerbassist@gmail.com">Contact</a>
+                </div>
+                <a style="text-decoration: none; color: white; float: left;">© 2021 Leroy Buliro.</a>
+                <div style="float:right;">
+                    <button style="font-weight: bold; background-color: rgb(0, 0, 0); color: white; border: none; cursor: pointer; margin-right: 1em;"><a>LOG IN</a></button>
                     <button style="font-weight: bold; background-color: rgb(28, 26, 145); color: white; border: none; cursor: pointer;"><a>SIGN UP</a></button>
                 </div>
+               
             
             </footer>
         </div>
