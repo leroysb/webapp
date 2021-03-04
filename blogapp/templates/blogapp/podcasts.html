@@ -1,0 +1,136 @@
+﻿{% load static %}
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="icon" type="image/png" href="{% static 'blogapp/img/nadoo.jpg' %}">
+
+    <!-- Load css file -->
+    <link href="{% static 'blogapp/styles.css' %}" rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+ 
+        /* This program will swap an image when it is clicked by using the getElementById() method
+        The program will use an image_tracker variable to keep track of which image is currently displayed
+        We can use an IF statement to check if the orange picture is being displayed,
+        then swap with the blue one, and vice versa.
+        */ 
+        
+        var image_tracker = 'play';
+        
+        function change(){
+        var image = document.getElementById('imgChange');
+        if(image_tracker=='play'){
+        image.src='resources\img\pausenow.png';
+        image_tracker='pause';
+        }
+        else{
+        image.src='resources\img\playnow.png';
+        image_tracker='play';
+        }
+        }
+        
+        </script>
+
+    <title>Podcasts | Leroy Buliro</title>
+</head>
+
+<body>
+
+    <nav style="position:sticky;">
+        <div class="nav-bar">
+            <a class="logo" href="#">
+                <img src="{% static 'blogapp/img/blognadoo.png' %}" alt="logo"></a>
+
+            <div style="float: right;">
+                <!--a href="https://twitter.com/leroybuliro/" target="_blank"><img src="resources\img\twitter.png" alt="twitter" class="center" width="30" length="30" style="padding-right: 3px;"></a-->
+                <a href="https://instagram.com/leroybuliro/" target="_blank"><img src="{% static 'blogapp/img/insta.png' %}" alt="instagram" class="center" width="30" length="30" style="padding-left: 3px;"></a>
+                <!--a href="https://www.youtube.com/channel/UCb53KypWn_BMSOxZMQfORdQ" target="_blank"><img src="resources\img\yt.png" alt="instagram" class="center" width="30" length="30" style="padding-left: 3px;"></a-->
+            </div>
+        </div>
+
+        <div class="update-bar"><p>READ NEW <a href="blog"><strong style="color: red;">BLOG POST</strong></a> NOW!!</p></div>
+
+
+    </nav>
+
+    <div class="page-container" style="padding-top: 0.4em;">
+        <div class ="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+
+                <p style="font-size: 38px; font-weight: bold;">KUBONGA<br>SHOW<br>PODCAST</p>
+
+                <p>The Kubonga Show is a seasonal, meandering conversation with activists, artists, industry professionals, and everyday folks. We want to tell their stories, talk about topics close to their heart, and yeah, just have a nice conversation with host Leroy Buliro.</p>
+                <p>Kubonga is a Swahili slang translating to 'Talk'.</p>
+                <p>Email your requests or comments to <a href="mailto:lerbassist@gmail.com" target="_blank">lerbassist@gmail.com</a></p>
+                <br>
+                <div><p><strong>LISTEN & SUBSCRIBE</strong></p></div>
+                <ul>
+                    <li><a href="https://mdundo.com/a/199352" target="_blank">Mdundo</a></li>
+                    <li><a href="https://open.spotify.com/show/2yUYmMbNJ2aXWDPoHF6P7D" target="_blank">Spotify</a></li>
+                    <li><a href="https://podcasts.apple.com/us/podcast/kubonga-podcast/id1470474649?uo=4" target="_blank">Apple Podcasts</a></li>
+                    <li><a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9jNDk1YmI4L3BvZGNhc3QvcnNz" target="_blank">Google Podcasts</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-12 col-md-8 col-lg-8">
+                <h3>Season One</h3>
+
+                <hr>
+
+                <div class="episode">
+                    <!--img> src="resources\img\playnow.png" alt="" id="imgClickAndChange" onclick="changeImage()" /-->
+                    <div>
+                        <p id="podtext">EPISODE 3 - TBA</p>
+                        <P id="podtitle">OFFICIAL PODCAST LAUNCH</P>
+                        <p id="podtext">We look back to the past, contemplate the present and stay hopeful for the future.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="episode">
+                    <!--img> src="resources\img\playnow.png" alt="" id="imgClickAndChange" onclick="changeImage()" /-->
+                    <div>
+                    <p id="podtext">EPISODE 2 - AUG 13, 2019</p>
+                    <P id="podtitle">LET'S TALK WHISKY w/ DANIEL DYER - GRANT'S WHISKY GLOBAL BRAND AMBASSADOR</P>
+                    <p id="podtext">From a humble background as a bartender at a local pub somewhere in Scotland to Grant's Whisky Global brand ambassador, Daniel Dyer shares his transformative journey with us and much more.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="episode">
+                    <!--img> src="resources\img\playnow.png" alt="" id="imgClickAndChange" onclick="changeImage()" /-->
+                    <div>
+                        <p id="podtext">EPISODE 1 - JUN 27, 2019</p>
+                        <P id="podtitle">ACCIDENTAL PODCAST PILOT w/ WANJIRA LONGAUER - KENYAN BASED ACTRESS, RADIO & TV HOST</P>
+                        <p id="podtext">Get to know Wanjira Longauer as she unveils her childhood memories, lets us in on her adventures in Europe, dishes out tips on the dos and don'ts for future travellers and gives us pointers on how to live your best life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <footer>© Leroy Buliro 2018-2020. All rights Reserved.</footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+    
+
+</html>

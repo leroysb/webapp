@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" type="image/png" href="{% static 'blogapp/img/icon.png' %}">
+    <link rel="icon" type="image/png" href="{% static 'blogapp/media/lb.jpg' %}">
     
     <!-- Load css file -->
     <link href="{% static 'blogapp/styles.css' %}" rel="stylesheet">
@@ -29,6 +29,10 @@
             margin-left: -6px;
             margin-right: 2px;
             font-size: 100px;
+        }
+
+        p, ol, ul, a {
+            font-size: 14px;
         }
     </style>
 
@@ -62,9 +66,11 @@
 
     <body style="font-size: 16px; font-family: 'Josefin Sans', sans-serif;">
 
-        <nav style="top: 0%; background-color: black; position:static; text-align: center; max-width: 100%; padding: 1% 4%;">
+        <nav style="top: 0%; position:static; text-align: center; max-width: 100%; padding: 1% 4%;">
             
-            <a style="color: white; font-weight:bolder; text-decoration: none;" href="#">THE BLOG OF LEROY BULIRO</a>
+            <a style="color: white; font-weight:bold; text-decoration: none; background-color: black; padding: 8px;" href="#">LEROY BULIRO</a>
+        
+            <p style="font-size: 12px; padding-top: 6px;">analyst, deejay, consultant, writer</p>
             <!--a href="#"><img src="{% static 'blogapp/img/title.png' %}" alt="logo" style="max-height: 100%;"></a-->
         </nav>
 
@@ -72,49 +78,21 @@
 
         <div style="width: 100%; padding: 4% 6% 4% 6%;">
             
-            <h1 style="text-align: center; font-family: 'Josefin Sans', sans-serif;">Featured Posts</h1>
+            <h4 style="text-align: center; text-decoration: underline; ">Featured Posts</h4>
             <br>
 
             <div>
                 <div style="text-align: center; padding: 2% 0% 2% 0%;">
-                    <h7 style="color: gray; font-size: 14px; font-weight: bold;">URBAN CULTURE</h7>
-                    <h4 style="font-weight: bold;">The Art Of Introversion</h4>
+                    <p style="color: gray; font-size: 10px;">WORDS FOR YUMMY MAGAZINE, ISSUE 45</p>
+                    <h5 style="font-weight: bold;">From 5000 to 1. A Chat With Daniel Dyer</h5>
                 </div>
 
-                <img src="{% static 'blogapp/img/posts/4_1.jpg' %}" alt="4_1" style="width: 100%;">
+                <img src="{% static 'blogapp/media/3_1.jpg' %}" alt="3_1" style="width: 100%;">
 
                 <div style="padding: 4% 0% 4% 0%;">
-                    <p><span class="padded-dropcap">I</span>t was September 2012, the first time I ever attended a concert by myself. It also happened to be the most hyped event of the year and I wasn't going to let it pass by me. Many would call it the golden age of EDM and if at the time you were part of “the movement” then i bet you are picturing it quite clearly right about now. If it’s one thing Nairobi is known for, it’s pioneering trends in East Africa and this event was a testament of that. I was but a fan back then and no one I knew was interested enough to join me for a Sunday night show. Blame it on the 9 to five. I bought a single ticket and made my way to Ngong Racecourse. Nairobians love their night escapades and that day was no different. By the time I got there, the stretch leading to the venue entrance was already a parking lot. Within minutes, i was tagged and in, grabbed a draft beer at one of the bars, found a spot a few meters from the stage, and scrolled through my phone until the next performer came on.</p>
-                    <p>Once the music started, I immediately got immersed in the performance on a level I’d rarely experienced before. With no friends to distract me with small chit chat -”Imagine donda leo alijaribu kunipora change. Mimi na yeye tulipambana vibaya aje. Heh! boss...” -, taking photos and videos on their phones, or asking me to hold their spots while they got refills or took bathroom breaks, my senses were heightened: melodies and harmonies were more enriched, the rhythms groovy, and the lyrics resonated more deeply. Transcendent it was.</p>
-                    <p>Hours later, the moon was set ablaze marking my departure time and as I strolled out into the crisp equatorial air, I wondered: Why hadn’t I ever done this before?</p>
-                    <p>In modern society, we partake in a number of isolating mundane activities but are viewed as being off when the same is reciprocated on other social activities. How many times have you seen a person doing their groceries alone or trying out that fitness routine solo. Traditional cultural norms have conditioned us to feel uneasy when going alone to certain public places - concerts, movie theatres, restaurants, etc - where by default people go to socialize and have a good time. Often are the times when I hear people lament, “I’d love to go see [insert artist/band], but I have noone to go with.” My response, constant.</p>
-                    <p>“So what’s holding you back, go anyway.”</p>
-                    <p>Now let's be rational for a moment. Flying solo is accompanied with a number of perks. Logistically. Your much awaited movie has just hit the screens, getting that single ticket for a superb location will come easier than securing a group of good seats. Timewise. You can always arrive as early or as late as you want to without having to care much about missing a performance you really don’t have interest towards; the hustle of agreeing who’ll buy drinks and agree on repayment hoping they don’t get drunk on the agreement as well and forget about it. And when your headliner takes it to the stage, you have more freedom to move around the stage than when in a pack, making it much easier to claim a serendipitous gap right in front of the action when it appears.</p>
-                    <p>“But who will I talk to?”</p>
-                    <p>That’s what the little self doubting voice in my head whispered to me the first time I bought the solo ticket - and it’s not a completely unfounded fear. There’s usually that weird moment when an artist’s performance comes to an end and just before the next one begins, a moment of pause is appreciated as the stage morphs for the next artist. Those few minutes of downtime when everyone is chatting up.</p>
-                    <p>You see, I always enjoy my own company. I identify as a anti-social extrovert (introvert), but even with the self assurance, it can still be an uncomfortable experience sitting - or standing - alone when everyone around you is chatting, in groups, taking squad photos or semi cocooning with their lover. On trying to pinpoint why this thought bothered me, my real hangup revealed itself: I wasn’t afraid to be alone. It was the thought of other people noticing that I was alone.</p>
-                    <p>Fortunately, we humans are self-absorbed creatures. When you go to a show alone, it’s highly unlikely anyone else will even notice that you’re by yourself, let alone care enough to scrutinize you for it. Realistically, what are the odds that next time the same band comes to town, another fan will spot you in the crowd and whisper, “Hey look, isn’t that the dude who showed up alone last time?”.</p>
-                    <p>If replicating what you see on social media feeds is your approach to concerts and music festivals - that they’re places to tag along with your friends and post photos and videos of you having a great time or record videos as you sing along to your favourite songs - then of course it will feel uncomfortable to be there by yourself. But if you look at a concert as a performance to take in and enjoy as a member of the audience, you’ll soon feel no shame of being there without an entourage. Solitude invites you to get lost in the music.</p>
-                    <p>And isn’t the music what you came for?</p>
-                    <p>Nowadays I can proudly refer to myself as an adept and avid solo concertgoer. I have attended movie premiers by myself, unwinded at restaurants considered as romantic spots with my whisky as my plus one. If in the mood, I chat with the people around me; a few of those spontaneous conversations have blossomed into real lifelong friendships. Other times, I just listen and observe.</p>
-                    <p>A few months ago, I was gifted a ticket to see singer/songwriter Tetu Shani perform at The Alchemist Bar. My favourite place to sit at this particular venue is at an elongated table with a couple of bar stools aligned together on one lengthy side, facing down on the stage. It's one floor up so it offers an alfresco view of the venue. The best kind of views.</p>
-                    <p>I was the first to arrive and settle down, and the second to sit down was a woman in her late twenties. We sparked up a conversation, and I learned that she’d just got offered a new job and moved to the city. It was not only her first visit to the venue, but her first time going to a concert alone which reminded me of how if felt to be newly enarmored with Nairobi's nightlife, full of nerves and buzzing big eyed wonder. For some time, our third seat remained unoccupied until the lights dimmed, and as Tetu and his band took the stage, a third woman slid gracefully and wordlessly onto the last stool. She looked sophisticated and at ease in a slim black turtleneck, and delicate pendant on a long silver chain: I guessed her to be a member of my parents’ generation. As Tetu started to play, I began to feel like time had somehow folded over on itself - I was sitting at my favourite table, not with two strangers, but with my older and younger selves.</p>
-                    <p>Over the duration of the performance, none of us spoke a word. We were the ghosts of concerts past, present, and future, sipping a drink and listening in contented, kindred silence.</p>
-                </div>
-            </div><!-- /.blog-post -->
-
-            <div>
-                <div style="text-align: center; padding: 2% 0% 2% 0%;">
-                    <h7 style="color: gray; font-size: 14px; font-weight: bold;">IDENTITY</h7>
-                    <h4 style="font-weight: bold;">From 5000 to 1. A Chat With Daniel Dyer</h4>
-                </div>
-
-                <img src="{% static 'blogapp/img/posts/3_1.jpg' %}" alt="3_1" style="width: 100%;">
-
-                <div style="padding: 4% 0% 4% 0%;">
-                    <p><strong>As a barman turned ambassador, Grant’s Whisky Global Brand Ambassador, Daniel Dyer is just beginning to experience the goodies accompanied with this role especially now that Grant’s Whisky has introduced a new bottle, the Triple Wood.</strong></p>
+                    <p>As a barman turned ambassador, Grant’s Whisky Global Brand Ambassador, Daniel Dyer is just beginning to experience the goodies accompanied with this role especially now that Grant’s Whisky has introduced a new bottle, the Triple Wood.</p>
                     <hr>
-                    <p><span class="padded-dropcap">I</span>t’s been eleven months since the title of Grant’s Brand Ambassador (B.A.) was bestowed to him, out of 5000 applicants who submitted their entry globally, “Do you know what’s really funny,” says Daniel Dyer, “That day I decided to apply for the role as Global B.A. of Grant’s Whisky, I was going through my daily routine behind the bar counter questioning my life decisions and whether I wanted to do this for the rest of my life.” As he was in deep thought, he took out his phone and logged into Facebook. “It was like a sign, I was scrolling and there it was on my feed, ‘Do you want to travel the world and sell whisky’ “ We now know how that story ended.</p>
+                    <p><span class="padded-dropcap">E</span>leven months have passed since the title of Grant’s Brand Ambassador (B.A.) was bestowed to him, out of 5000 applicants who submitted their entry globally, “Do you know what’s really funny,” says Daniel Dyer, “That day I decided to apply for the role as Global B.A. of Grant’s Whisky, I was going through my daily routine behind the bar counter questioning my life decisions and whether I wanted to do this for the rest of my life.” As he was in deep thought, he took out his phone and logged into Facebook. “It was like a sign, I was scrolling and there it was on my feed, ‘Do you want to travel the world and sell whisky’ “ We now know how that story ended.</p>
                     <p>Acquiring the role of brand ambassador is not as easy as it looks, just like any other line of work, one needs to be passionate. Passionate about the whisky making craft and everything in between, from the maturation process to the bottling. It requires discipline and some form of wit, especially when finding new ways to attract whisky lovers and make the spirit more accessible to a wider audience. Danny’s life now involves travelling around the world promoting whiskies. “My role is pretty weird but the aim is always to increase awareness of our brands and drive sales,” comments Daniel. ”Becoming a Global Ambassador has always been a dream goal for me and achieving it is odd because I now need to have a new goal as B.A. which includes getting people to talk and get hyped about Grant’s. The liquid is still as legendary, the bottle is great, so let’s have fun.”</p>
                     <p>Growing up in Aberlour on the North East of Scotland, Daniel Dyer’s previous life prepared him for this exceptional role. He’s worked at a number of distilleries and exclusive clubs across Scotland where he gathered his knowledge of whisky over the years as a bartender. From working at The Mash Tun Whisky Bar, where he led tastings and went as far as writing a whisky tasting book touching base over one hundred different whiskies not leaving behind the art of whisky making. His passion for the industry has also seen him working at the Scotch malt whisky society as an ambassador.</p>
                     <p>Over the short duration of time that Daniel Dyer has been Global Brand Ambassador of Grant’s Whisky, he’s travelled to nine countries around the world selling the refreshed brand, with every visit different from the last. It also happens to be his first visit to Africa, having made his first stop in Tanzania. Daniel was lucky enough to drive his way through Arusha to Nairobi where he got to interact with locals and explore nature – a view that he only witnessed in Nat Geo – as he drove through the Serengeti. He even got to taste a small bit of Nairobi’s nightlife scene when visiting J’s Fresh Bar and Kitchen.</p>
@@ -127,11 +105,34 @@
 
             <div>
                 <div style="text-align: center; padding: 2% 0% 2% 0%;">
-                    <h7 style="color: gray; font-size: 14px; font-weight: bold;">FOOD AND DRINK</h7>
-                    <h4 style="font-weight: bold;">Kilifi Nights</h4>
+                    <p style="color: gray; font-size: 10px;">WORDS FOR YUMMY MAGAZINE, ISSUE 42</p>
+                    <h5 style="font-weight: bold;">Very Special Indeed</h5>
                 </div>
 
-                <img src="{% static 'blogapp/img/posts/1_1.jpg' %}" alt="1_1" style="width: 100%;">
+                <img src="{% static 'blogapp/media/2_1.jpg' %}" alt="2_1" style="width: 100%;">
+
+                <div style="padding: 4% 0% 4% 0%;">
+                    <p><span class="padded-dropcap">T</span>here is something about Brand Ambassadors with their mussed-up hairstyles, classy attire, and mountains of charisma that gets all the ladies buzzed whenever we are having a tasting at the office. This was the case when Martell’s brand ambassador, Ugo Messi, dropped by for a Cognac tasting earlier this month.</p>
+                    <p>It is 4pm on the day before we break for Easter when Messi walks in. His arrival does not go unnoticed, as all the women in the office turn their heads, and just like that, we dudes are relegated to the sidelines. No sooner than have office hours officially ended, the ladies rush down the stairs to our backyard garden. By the time the rest of us follow suit, the females have already grabbed their seats with a prime view of the, ahem, show.</p>
+                    <p>For those not in the know, the iconic House of Martell was born in a small town in the west of France called Cognac in 1715. Martell is one of the most recognised cognac brands in the world and we are all excited to get a taste, especially for those who have never even had a sip of the stuff.</p>
+                    <p>“There are two main ingredients for making Cognac,” says Messi, expertly launching into his tried and tested presentation. “The first ingredient is grapes, the second, love,” he continues while placing three tulip-shaped glasses in front of each of us. “For Cognac, we do not have age statements, we only have quality statements. This is what elevates the spirit from the rest</p>
+                    <p>Messi goes on to explain that the quality statements are VS standing for Very Special, VSOP for Very Superior Old Pale and XO. No hugs and kisses will be flying around, not now at least, it is far too early for that. “XO stands for Extra Old”, says Messi finishing off on the basics of his presentation.</p>
+                    <p>As we continue to hear about the history of the brand, I ponder that no matter how fat your wallet is or how fancy you carry yourself, you stand no chance against a man with a French accent, especially when such man is of Cameroonian descent.</p>
+                    <p>“What is the best and only way to drink Cognac?” the question interrupts my reveries. The answer is not entirely expected: “Your way, you have to enjoy it your way, depending on the mood. Whether you like your drink iced up and on the rocks, as a cocktail or with a mixer”.</p>
+                    <p>Starting off the tasting is the Martell VS, which has a fruity aroma from the grapes and is soft in the mouth. This is not the case with the second bottle, the VSOP which has a woody aroma and I find mildly harsh to the throat. The XO instead tastes smooth, its aromas spicy on the nose and intense in the mouth.</p>
+                    <p>By the time darkness engulfs us, one more bottle is unveiled. This is the VSSD, a Very Special Single Distillery line which has yet to hit the market. Just by looking at its archshaped bottle, and the jealousy with which Messi cradles it, it becomes obvious that this is the brand’s new golden child. After a short walkthrough on the new bottle’s history and how it is prepared, we all lift our glasses to our nose to capture its scent before taking a sip, or gulps, for those who are already too far gone.</p>
+                    <P>The night is still young and the Martell is coursing through our veins whispering to our minds to loosen up. Who are we to say no? Before you know it we have decided the only way forward is a good old karaoke session. Luckily for the women though, Messi packs his bags up and prepares to leave, I’m not sure what impression their vocal cords would have made.</P>
+                    
+                </div>
+            </div><!-- /.blog-post -->
+
+            <div>
+                <div style="text-align: center; padding: 2% 0% 2% 0%;">
+                    <p style="color: gray; font-size: 10px;">WORDS FOR YUMMY MAGAZINE, ISSUE 38</p>
+                    <h5 style="font-weight: bold;">Kilifi Nights</h5>
+                </div>
+
+                <img src="{% static 'blogapp/media/1_1.jpg' %}" alt="1_1" style="width: 100%;">
 
                 <div style="padding: 4% 0% 4% 0%;">
                     <p><span class="padded-dropcap">I</span>t is 6 AM when we disembark at the Kilifi bus stage and are welcomed by a quenching morning sun. Unlike Nairobi, where the weather had been fresh and breezy, here the air is heavy and humid. We hail a tuk-tuk and make our way to Distant Relatives Eco-Lodge where we arrive in good time to catch a morning espresso with a BLT sandwich breakfast.</p>
@@ -143,7 +144,7 @@
                     <p>Max transfers the mixture from the blender to a bowl covered with a cloth. “The reason of doing this is to sieve out the small bits of the unblended Khat so we can get the fine juice’” Turns out the small chunks of unblended khat can later be dried and packed into sachets which can be used to make miraa tea. He finishes everything off by adding berry juice to the mixture. Word gets out that the juice is ready and guests from the lodge begin to crowd around us, eager to have a taste.</p>
                     <p>He pours the green mixture into a line of shot glasses “Here is to miraa” he raises his glass and, as tradition prescribes, he takes the first sip. Once he has certified it, the rest of the group follows suit. After the initial shock at the dryness of the lemon and chlorophyll, I am left with a surprisingly soothing and distinct taste in the mouth.</p>
                     <p>That night I get on the decks and play to a silent dancefloor. I am happy and elated but can’t tell if this is down to the shots or the sea breeze. Let’s see what it does to the DJ set I will be playing at the festival for this coming New Year.</p>
-                    <h4>Miraa Shots Recipe</h4>
+                    <h6><strong>Shots Recipe</strong></h6>
                     <p><strong>Tools</strong></p>
                     <ul class="recipe-list">
                         <li>Blender</li>
@@ -174,23 +175,19 @@
         <div style="background-color: rgb(19, 29, 29); color: white; width: 100%; padding: 5% 10% 5% 10%;">
             <div class ="row">
 
-                <div class="col-sm-12 col-md-6 col-lg-7">
+                <div class="col-sm-7 col-md-7 col-lg-7">
 
-                    <p style="font-family: 'Josefin Sans', sans-serif; font-size: 2.6em;"><strong>Leroy Buliro Dives In Podcast</strong></p>
+                    <h4 style="text-align: center; text-decoration: underline; ">Podcast</h4>
                     <br>
-                    <p style="font-size: 18px;">Leroy Buliro Dives In is a meandering conversation with activists, artists, industry professionals, and everyday folks. We want to tell their stories, talk about topics close to their heart, and yeah, just have a nice conversation.</p>
+                    <p>A seasonal, meandering conversation with activists, artists, industry professionals, and everyday folks. We want to tell their stories, talk about topics close to their heart, and yeah, just have a nice conversation.</p>
                     <p><strong>LISTEN & SUBSCRIBE</strong></p>
-                    <ul>
-                        <li><a style="text-decoration: blueviolet;" href="https://podcasts.apple.com/us/podcast/kubonga-podcast/id1470474649?uo=4" target="_blank">Apple Podcasts</a></li>
-                        <li><a style="text-decoration: blueviolet;" href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9jNDk1YmI4L3BvZGNhc3QvcnNz" target="_blank">Google Podcasts</a></li>
-                        <li><a style="text-decoration: blueviolet;" href="https://open.spotify.com/show/2yUYmMbNJ2aXWDPoHF6P7D" target="_blank">Spotify</a></li>
-                    </ul>
-
+                    <a href="https://podcasts.apple.com/us/podcast/the-leroy-buliro-podcast/id1470474649?uo=4" target="_blank"><img src="{% static 'blogapp/media/applepodcast.png' %}" alt="listen on apple podcast" class="center" style="padding: 4% 0% 4% 0%; max-width: 60%;"></a>
+                    <!--a href="https://open.spotify.com/show/2yUYmMbNJ2aXWDPoHF6P7D" target="_blank"><img src="{% static 'blogapp/media/spotify.png' %}" alt="listen on spotify" class="center" width="40em" length="40em" style="padding: 3px;"></a-->
+                    <!--a href="https://www.youtube.com/channel/UCb53KypWn_BMSOxZMQfORdQ" target="_blank"><img src="resources\img\yt.png" alt="instagram" class="center" width="30" length="30" style="padding-left: 3px;"></a-->
                 </div>
     
-                <div class="col-sm-12 col-md-6 col-lg-5">
-
-                    <img src="{% static 'blogapp/img/dive-in.jpg' %}" alt="dive in podcast" style="max-width: 100%;">                  
+                <div class="col-sm-5 col-md-5 col-lg-5">
+                    <img src="{% static 'blogapp/media/lbpod.jpg' %}" alt="podcast image" style="max-width: 100%;">                  
                 </div>
             </div>
         </div><!-- /.podcast-section -->
@@ -198,13 +195,13 @@
         <br>
 
         <div style="padding: 6% 14% 6% 14%; text-align: center; font-family: 'Josefin Sans', sans-serif;">
-            <h1>About Leroy</h1>
-            <img src="{% static 'blogapp/img/about.jpg' %}" alt="leroy" style="border-radius: 50%; max-width: 15em; padding: 2em;">
+            <h5 style="text-align: center; text-decoration: underline; ">About Leroy</h5>
+            <img src="{% static 'blogapp/media/about.jpg' %}" alt="leroy" style="border-radius: 50%; max-width: 15em; padding: 2em;">
             <p>Hi there. My name is Leroy, also recognized by my DJ stage name LERB. I am an analyst by profession, a junglist at heart, and a storyteller by birth.</p>
             <p>Welcome to my digital man-cave, a place where I document stories and experiences, both personal and those told by others.</p>
             <div>
-                <a href="https://twitter.com/leroybuliro/" target="_blank"><img src="{% static 'blogapp/img/twitter.png' %}" alt="twitter" class="center" width="40em" length="40em" style="padding: 3px;"></a>
-                <a href="https://instagram.com/leroybuliro/" target="_blank"><img src="{% static 'blogapp/img/insta.png' %}" alt="instagram" class="center" width="40em" length="40em" style="padding: 3px;"></a>
+                <a href="https://twitter.com/leroybuliro/" target="_blank"><img src="{% static 'blogapp/media/twitter.png' %}" alt="twitter" class="center" width="40em" length="40em" style="padding: 3px;"></a>
+                <a href="https://instagram.com/leroybuliro/" target="_blank"><img src="{% static 'blogapp/media/insta.png' %}" alt="instagram" class="center" width="40em" length="40em" style="padding: 3px;"></a>
                 <!--a href="https://www.youtube.com/channel/UCb53KypWn_BMSOxZMQfORdQ" target="_blank"><img src="resources\img\yt.png" alt="instagram" class="center" width="30" length="30" style="padding-left: 3px;"></a-->
             </div>
         
